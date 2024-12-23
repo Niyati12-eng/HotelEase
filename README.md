@@ -28,3 +28,26 @@ Frontend: HTML, CSS, Bootstrap
 Backend: JSP, Servlets
 Database: MySQL
 Server: Apache Tomcat
+
+**Installation and Deployment**
+
+**Prerequisites:**
+
+Java Development Kit (JDK) installed.
+Apache Tomcat server installed.
+MySQL server installed.
+
+**Setup:**
+
+Clone the repository: git clone <repository-url>.
+Import the project into your IDE (Eclipse or IntelliJ).
+
+**Configure the database:**
+
+Import the rooms and users table schemas into MySQL.
+Update conn.jsp with your database credentials.
+
+**Run Locally:**
+
+Deploy the project to the Tomcat server.
+Access the application at http://localhost:8080/HotelEase/index.jsp.
